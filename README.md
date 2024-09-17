@@ -31,7 +31,7 @@ The end goal of this project is to explore and implement RAG by combining docume
 
 ## Models Used
 
-### 1. **LLM Model: [BioMistral-7B](https://huggingface.co/MaziyarPanahi/BioMistral-7B-GGUF/tree/main)**
+### 1. **LLM Model: [BioMistral-7b](https://huggingface.co/MaziyarPanahi/BioMistral-7B-GGUF/tree/main)**
    - BioMistral-7B is a large language model specialized for healthcare applications. This model is used to generate the final response based on the query and retrieved documents.
 
 ### 2. **Embeddings Model: [PubMedBert-Base](https://huggingface.co/NeuML/pubmedbert-base-embeddings)**
