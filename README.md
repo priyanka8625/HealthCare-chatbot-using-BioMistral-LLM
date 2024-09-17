@@ -64,12 +64,12 @@ The chatbot is built using two key phases:
    - **Step 3: Query the chatbot.**
      - A user query is passed to the system, and the following steps occur:
      
-     a. The query is passed to the retriever.
-     
-     b. The retriever searches the vector store using K-Nearest Neighbors (KNN) to find the most relevant document chunks.
-     
-     c. Both the query and the retrieved chunks are passed to the LLM.
-     
-     d. The LLM generates a response based on the combined context.
+        a. The query is passed to the retriever.
+        
+        b. The retriever searches the vector store using K-Nearest Neighbors (KNN) to find the most relevant document chunks.
+        
+        c. Both the query and the retrieved chunks are passed to the LLM.
+        
+        d. The LLM generates a response based on the combined context.
 
 This project uses publically available models and frameworks to demonstrate how RAG pipelines can be leveraged in healthcare. The main focus is on answering questions related to heart health using an open-source document and state-of-the-art models.
